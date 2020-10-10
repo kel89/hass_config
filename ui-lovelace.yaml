@@ -4,30 +4,12 @@ views:
     title: Home
     badges:
       - entity: binary_sensor.updater
-      # - entity: person.ken_lipke
       - entity: sun.sun
-    # cards:
-    #   - type: media-control
-    #     entity: media_player.living_room_apple_tv
-    #   - type: entities
-    #     entities:
-    #       - remote.living_room_apple_tv
-    #     title: remote
-    #   - type: weather-forecast
-    #     entity: weather.home
-
-
-
     cards:
-    # Weather
       - type: weather-forecast
         entity: weather.home
-      # - entity: media_player.living_room_apple_tv
-      #   type: media-control
-    # Spotify Widget
       - type: media-control
         entity: media_player.spotify_kenny_lipke
-    # Apple TV Grouping with Controls
       - cards:
           - entity: media_player.living_room_apple_tv
             type: media-control
@@ -120,3 +102,14 @@ views:
                 type: button
             type: horizontal-stack
         type: vertical-stack
+      - type: light
+        entity: light.kennys_bedroom_ceiling
+  - title: Garage
+    path: garage
+    badges: []
+    cards:
+      - type: entities
+        entities:
+          - sun.sun
+      - type: media-control
+        entity: media_player.spotify_kenny_lipke
