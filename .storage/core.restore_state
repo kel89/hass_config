@@ -1,0 +1,152 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.ken",
+                "state": "unknown",
+                "attributes": {
+                    "editable": true,
+                    "id": "ken",
+                    "user_id": "ad5b0ccccb6145628e3e6ba8aecbe56f",
+                    "friendly_name": "Ken"
+                },
+                "last_changed": "2020-10-10T20:39:48.169609+00:00",
+                "last_updated": "2020-10-10T20:39:57.122521+00:00",
+                "context": {
+                    "id": "58339f34568d21279fce3dd977b1bd04",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-10-10T20:54:57.125817+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.menu_klik",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1588893016815",
+                    "friendly_name": "menu klik"
+                },
+                "last_changed": "2020-10-09T22:47:22.454072+00:00",
+                "last_updated": "2020-10-09T22:47:22.454072+00:00",
+                "context": {
+                    "id": "79db0e4ead18933a25913039d8c27aae",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-10-10T20:37:21.832822+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.left_klik",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1588893454390",
+                    "friendly_name": "left klik"
+                },
+                "last_changed": "2020-10-09T22:47:22.505398+00:00",
+                "last_updated": "2020-10-09T22:47:22.505398+00:00",
+                "context": {
+                    "id": "31213216e3893f1116bfd5f152bb42cb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-10-10T20:37:21.832822+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.right_click",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1588893677501",
+                    "friendly_name": "right.click"
+                },
+                "last_changed": "2020-10-09T22:47:22.505756+00:00",
+                "last_updated": "2020-10-09T22:47:22.505756+00:00",
+                "context": {
+                    "id": "889482e927290a1fc0c6294737a699f4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-10-10T20:37:21.832822+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.up_click",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1588894393629",
+                    "friendly_name": "up.click"
+                },
+                "last_changed": "2020-10-09T22:47:22.506164+00:00",
+                "last_updated": "2020-10-09T22:47:22.506164+00:00",
+                "context": {
+                    "id": "0c115be2e7e54fd7c943b99c68b1fe84",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-10-10T20:37:21.832822+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.down_click",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1588894418468",
+                    "friendly_name": "down.click"
+                },
+                "last_changed": "2020-10-09T22:47:22.506685+00:00",
+                "last_updated": "2020-10-09T22:47:22.506685+00:00",
+                "context": {
+                    "id": "0d512cd587c976c002dc8d8df69e3c20",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-10-10T20:37:21.832822+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.enter_click",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1588896133904",
+                    "friendly_name": "enter.click"
+                },
+                "last_changed": "2020-10-09T22:47:22.507079+00:00",
+                "last_updated": "2020-10-09T22:47:22.507079+00:00",
+                "context": {
+                    "id": "2a085bc5fd6c8710481217b697607cd2",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-10-10T20:37:21.832822+00:00"
+        }
+    ]
+}

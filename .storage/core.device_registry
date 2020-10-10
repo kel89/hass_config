@@ -1,0 +1,51 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "99f97d4e8ddbfbe78f8dab7bddbc0c4b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "98:da:c4:20:c6:b5"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS220(US)",
+                "name": "Kenny\u2019s bedroom ceiling",
+                "sw_version": "1.5.11 Build 200214 Rel.152651",
+                "entry_type": null,
+                "id": "3d9bd86d010059a7f57b797b7d23ec22",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "c1397897c7f80b491683e7adeef71448"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "spotify",
+                        "1244740757"
+                    ]
+                ],
+                "manufacturer": "Spotify AB",
+                "model": "Spotify premium",
+                "name": "Spotify Kenny Lipke",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "8883dd1334e1c47cae19eabb59c0d9e6",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

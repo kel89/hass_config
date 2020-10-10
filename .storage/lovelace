@@ -1,0 +1,187 @@
+{
+    "version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "title": "Home",
+            "views": [
+                {
+                    "path": "default_view",
+                    "title": "Home",
+                    "badges": [
+                        {
+                            "entity": "binary_sensor.updater"
+                        },
+                        {
+                            "entity": "sun.sun"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "type": "weather-forecast",
+                            "entity": "weather.home"
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.spotify_kenny_lipke"
+                        },
+                        {
+                            "type": "light",
+                            "entity": "light.kennys_bedroom_ceiling"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "entity": "media_player.living_room_apple_tv",
+                                    "type": "media-control"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "remote.living_room_apple_tv",
+                                            "hold_action": {
+                                                "action": "none"
+                                            },
+                                            "icon": "mdi:arrow-left",
+                                            "name": "Left arrow",
+                                            "show_icon": true,
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.send_command",
+                                                "service_data": {
+                                                    "command": "left",
+                                                    "entity_id": "remote.living_room_apple_tv"
+                                                }
+                                            },
+                                            "type": "button"
+                                        },
+                                        {
+                                            "entity": "remote.living_room_apple_tv",
+                                            "hold_action": {
+                                                "action": "none"
+                                            },
+                                            "icon": "mdi:apple",
+                                            "name": "Select",
+                                            "show_icon": true,
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.send_command",
+                                                "service_data": {
+                                                    "command": "select",
+                                                    "entity_id": "remote.living_room_apple_tv"
+                                                }
+                                            },
+                                            "type": "button"
+                                        },
+                                        {
+                                            "entity": "remote.living_room_apple_tv",
+                                            "hold_action": {
+                                                "action": "none"
+                                            },
+                                            "icon": "mdi:arrow-right",
+                                            "name": "Right arrow",
+                                            "show_icon": true,
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.send_command",
+                                                "service_data": {
+                                                    "command": "right",
+                                                    "entity_id": "remote.living_room_apple_tv"
+                                                }
+                                            },
+                                            "type": "button"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "remote.living_room_apple_tv",
+                                            "hold_action": {
+                                                "action": "none"
+                                            },
+                                            "icon": "mdi:arrow-up",
+                                            "name": "Up arrow",
+                                            "show_icon": true,
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.send_command",
+                                                "service_data": {
+                                                    "command": "up",
+                                                    "entity_id": "remote.living_room_apple_tv"
+                                                }
+                                            },
+                                            "type": "button"
+                                        },
+                                        {
+                                            "entity": "remote.living_room_apple_tv",
+                                            "hold_action": {
+                                                "action": "none"
+                                            },
+                                            "icon": "mdi:menu",
+                                            "name": "Menu",
+                                            "show_icon": true,
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.send_command",
+                                                "service_data": {
+                                                    "command": "menu",
+                                                    "entity_id": "remote.living_room_apple_tv"
+                                                }
+                                            },
+                                            "type": "button"
+                                        },
+                                        {
+                                            "entity": "remote.living_room_apple_tv",
+                                            "hold_action": {
+                                                "action": "none"
+                                            },
+                                            "icon": "mdi:arrow-down",
+                                            "name": "Down arrow",
+                                            "show_icon": true,
+                                            "show_name": false,
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.send_command",
+                                                "service_data": {
+                                                    "command": "down",
+                                                    "entity_id": "remote.living_room_apple_tv"
+                                                }
+                                            },
+                                            "type": "button"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ]
+                },
+                {
+                    "title": "Garage",
+                    "path": "garage",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "sun.sun"
+                            ]
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.spotify_kenny_lipke"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

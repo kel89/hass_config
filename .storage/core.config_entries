@@ -1,0 +1,64 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "5e0d1306a2ce552524f3de763f274d45",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "onboarding",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "99f97d4e8ddbfbe78f8dab7bddbc0c4b",
+                "version": 1,
+                "domain": "tplink",
+                "title": "TP-Link Smart Home",
+                "data": {},
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "import",
+                "connection_class": "local_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "c1397897c7f80b491683e7adeef71448",
+                "version": 1,
+                "domain": "spotify",
+                "title": "Kenny Lipke",
+                "data": {
+                    "auth_implementation": "spotify",
+                    "token": {
+                        "access_token": "BQBn2G1Ub0Krt486vcigdJcLQE7Ys9bjfJ1OiBb9zyWsJyz1u5phgcnBa2D72R4W5MRbFOa-UCd5WqlpdUfESxl6mHHAFX9TN3CzmOCGeySFKjq4DckGfshuq1UtNkOw8Yqk0_HyVUt1PdThgUWsQp5TmKuTIbG6qWk44JdXVc1V8FpUcI32K8MpgEhE5djmc0Xw15IM1x0",
+                        "token_type": "Bearer",
+                        "expires_in": 3600,
+                        "refresh_token": "AQAUm7L6Jlko5qXgsN3qwKfNekcNK9RsdMhMR4_RiFHxJa5fdH_t8NDc-VqPaNjb4aoSGnLiUPD3lSJkYgDCZlqhiOyP8XJ3jB6q7bIt1mAR_O2RqGMlkq799zwJy7ifY90",
+                        "scope": "playlist-read-private playlist-read-collaborative user-modify-playback-state user-library-read user-follow-read user-read-playback-state user-read-recently-played user-read-playback-position user-read-private user-top-read",
+                        "expires_at": 1602366967.3959215
+                    },
+                    "id": "1244740757",
+                    "name": "Kenny Lipke"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": "1244740757"
+            }
+        ]
+    }
+}
