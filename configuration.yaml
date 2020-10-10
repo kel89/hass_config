@@ -1,0 +1,30 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+logger:
+  default: info
+  logs:
+    homeassistant.components.cloud: debug
+
+# Custom Stuff
+# lovelace:
+#     mode: yaml
+
+apple_tv:
+  - host: 192.168.0.110
+    login_id: 00000000-23c1-42f6-cea9-6f5d85794681
+    name: LIVING_ROOM_APPLE_TV
+
+spotify:
+  client_id: !secret spotify_client_id
+  client_secret: !secret spotify_client_key
